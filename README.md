@@ -13,3 +13,9 @@ When started, the client requests a server name or IP address, a specified port,
   * Open the file, read its content to a buffer.
   * Write the buffer contents to the connection established by the client.
 3. The client will receive the data from the socket and store it in a local file.
+
+### Client errors are handled by output of the following error messages:
+* Invalid port number
+* Could not connect to server
+* Failed to send command. Terminating.
+* Did not receive response.
